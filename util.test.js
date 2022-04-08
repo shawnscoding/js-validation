@@ -500,6 +500,7 @@ describe("all truthy validation passed", () => {
     expect(res).toBe(true);
 
     res = isTruthy(-599);
+
     expect(res).toBe(true);
 
     res = isTruthy({});
